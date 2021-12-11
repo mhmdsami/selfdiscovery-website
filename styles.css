@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:wght@400;600&display=swap');
+
+*{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+.hero{
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.hero a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    padding: 0.5em;
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.logo a{
+    color: #51C4D3;
+}
+
+nav{
+    padding-top: 1.7em;
+    float: right;
+}
+
+nav ul{
+    font-size: large;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav li{
+    font-weight: bold;
+    padding: 1em;
+    display: inline;
+}
+
+nav li a:hover{
+    color: black;
+    font-weight: bold;
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+nav li a span{
+    color: #51C4D3;
+    font-weight: bold;
+    background-color: #ececec;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.container{
+    text-align: center;
+    padding-top: 7em;
+}
+
+.container h1{
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.container h1 span{
+    color: #51C4D3;
+}
+
+.container p{
+    font-size: xx-large;
+}
+
+.about{
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-bottom: 2em;
+}
+
+.about h1{
+    padding: 0.5em 0;
+}
+
+img{
+    width: 50%;
+    padding: 1em 25%;
+    align-items: center;
+}
+
+.about p{
+    font-size: large;
+}
+
+.about ul{
+    text-align: center;
+    font-size: large;
+    list-style: none;
+    justify-content: space-between;
+    padding: 2em;
+} 
+
+.about ul li{
+    font-weight: bold;
+    display: inline;
+    color: black;
+    font-weight: bold;
+    padding: 0 1em;
+}
+
+.about ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.about ul li a:hover{
+    background-color: #51C4D3;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    background-color: black;
+}
+
+footer p{
+    color: whitesmoke;
+    background-color: black;
+}
+
+footer p a{
+    color: whitesmoke;
+    background-color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p a:hover{
+    color: #51C4D3;
+}

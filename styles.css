@@ -42,21 +42,23 @@ nav ul{
 
 nav li{
     font-weight: bold;
-    padding: 1em;
+    padding: 0.5em;
     display: inline;
 }
 
-nav li a:hover{
+nav li a{
     color: black;
     font-weight: bold;
-    background-color: #ececec;
     border-radius: 10px;
     padding: 0.5em;
 }
 
+nav li a:hover{
+    background-color: #ececec;
+}
+
 nav li a span{
     color: #51C4D3;
-    font-weight: bold;
     background-color: #ececec;
     border-radius: 10px;
     padding: 0.5em;

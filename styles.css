@@ -95,8 +95,20 @@ nav li a span{
 
 img{
     width: 50%;
-    padding: 1em 25%;
+    padding: 1em 25% 0em;
     align-items: center;
+}
+
+.image-credit{
+    text-align: center;
+    color: #191A19;
+    font-style: italic;
+    font-size: small;
+    margin-bottom: 1em;
+}
+
+.image-credit a{
+    color: #191A19;
 }
 
 .about p{
